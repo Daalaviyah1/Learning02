@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Table!</title>
+        <link rel="stylesheet" href="style.css" />
+        <style>
+            table{
+                border: 1px solid black;
+                border-collapse: collapse;
+                
+            }
+            td, th{
+                border: 1px solid black;
+                padding: 5px;
+            }
+            th{ 
+                font-size: 20px ;
+                font-family: Arial;
+                color: orange;
+            }
+        </style>
+        <script>
+            function Hello() {
+                alert('This  are the oceans in the world')
+            }
+        </script>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th>Ocean</th>
+                    <th>Average depth</th>
+                    <th>Maximum depth</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Atlantic ocean </td>
+                    <td>345,00 m</td>
+                    <td>769,00 m</td>
+                </tr>
+                <tr>
+                    <td>Paciffic ocean</td>
+                    <td>897,00 m</td>
+                    <td>213,009 m</td>
+                </tr>
+                <tr>
+                    <td>Idian ocean</td>
+                    <td>235,908 m</td>
+                    <td>768,90 m</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <button onclick="Hello()"> Click me</button>
+    </body>
+</html>

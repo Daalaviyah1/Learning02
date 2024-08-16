@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Counter!</title>
+        <script>
+            // a function that will manipulate the DOM in HTML
+            let counter = 0;
+
+            function count() {
+                counter++;
+                document.querySelector('h1').innerHTML = counter;
+
+                if (counter % 10 === 0){
+                    alert(`count is now ${counter}`)
+                }
+                               
+            }
+        </script>
+    </head>
+    <body>
+        <h1>0</h1>
+        <!-- <h2>DOM document object model</h2> -->
+        <button onclick="count()"> Click to start counting</button>
+    </body>
+</html>

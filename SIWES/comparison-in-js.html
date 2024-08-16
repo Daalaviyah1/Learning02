@@ -1,0 +1,23 @@
+<!<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Counter!</title>
+        <script>
+         // comparison between elements in HTML
+            function hello() {
+               if(document.querySelector('h1').innerHTML === 'Hello'){
+                   document.querySelector('h1').innerHTML = 'Goodbye';
+               }else{
+                   document.querySelector('h1').innerHTML = 'Hello'
+               }                
+            }
+            // document.querySelector can be declared as a constant.
+            // eg const headding = document.querySelector('h1')
+        </script>
+    </head>
+    <body>
+        <h1>Hello</h1>
+        <!-- DOM document object model -->
+        <button onclick="hello()"> Click to check</button>
+    </body>
+</html>
